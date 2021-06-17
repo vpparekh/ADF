@@ -1,0 +1,64 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlob_Input",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "annualsurvey.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Industry_aggr",
+				"type": "String"
+			},
+			{
+				"name": "Industry_code",
+				"type": "String"
+			},
+			{
+				"name": "Industry_name",
+				"type": "String"
+			},
+			{
+				"name": "Units",
+				"type": "String"
+			},
+			{
+				"name": "variable_code",
+				"type": "String"
+			},
+			{
+				"name": "variable_name",
+				"type": "String"
+			},
+			{
+				"name": "variable_catagory",
+				"type": "String"
+			},
+			{
+				"name": "value",
+				"type": "String"
+			},
+			{
+				"name": "Industry_code_grp",
+				"type": "String"
+			}
+		]
+	}
+}

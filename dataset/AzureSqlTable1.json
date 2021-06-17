@@ -1,0 +1,58 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureOutputSql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Year",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Industry_aggr",
+				"type": "varchar"
+			},
+			{
+				"name": "Industry_code",
+				"type": "varchar"
+			},
+			{
+				"name": "Industry_name",
+				"type": "varchar"
+			},
+			{
+				"name": "Units",
+				"type": "varchar"
+			},
+			{
+				"name": "variable_code",
+				"type": "varchar"
+			},
+			{
+				"name": "variable_name",
+				"type": "varchar"
+			},
+			{
+				"name": "variable_catagory",
+				"type": "varchar"
+			},
+			{
+				"name": "value",
+				"type": "varchar"
+			},
+			{
+				"name": "Industry_code_grp",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AnnualSurvey"
+		}
+	}
+}
