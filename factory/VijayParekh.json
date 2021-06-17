@@ -1,0 +1,9 @@
+{
+	"name": "VijayParekh",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dac5224c-d9fd-4888-86d1-60ec1a1937a2",
+		"tenantId": "ab8614a3-38fa-4410-81cc-2cff09afdee1"
+	}
+}
